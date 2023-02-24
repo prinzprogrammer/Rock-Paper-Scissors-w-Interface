@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tilt Neon", cursive;
+}
+
+#game-title {
+  text-align: center;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+}
+.main .player-name,
+.main .computer-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+.main .score-player,
+.main .score-computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 350px;
+  height: 100%;
+}
+.main .score-player h1,
+.main .score-computer h1 {
+  font-size: 1.8rem;
+}
+.main .playerChoices {
+  width: 1fr;
+}
+.main .playerChoices button {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

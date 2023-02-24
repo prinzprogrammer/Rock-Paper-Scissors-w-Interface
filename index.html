@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" type="image/png" href="icons/6793733.png" />
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="game-title">Rock Paper Scissors</h1>
+    <div class="main">
+      <div class="player-name">
+        <h1>Player</h1>
+      </div>
+
+      <div class="score-player">
+        <h3>Score:</h3>
+
+        <h1 id="player-display">
+          Player Choice: <span id="player-choice"></span>
+        </h1>
+
+        <img id="playerHand" src="/icons/player/rock.png" alt="rock" />
+      </div>
+      <!-- buttons -->
+      <div class="playerChoices">
+        <button id="Rock">Rock</button>
+        <button id="Paper">Paper</button>
+        <button id="Scissors">Scissors</button>
+      </div>
+      <!-- buttons -->
+      <div class="score-computer">
+        <h3>Score:</h3>
+        <h1 id="computer-display">
+          Computer Choice: <span id="computer-choice"></span>
+        </h1>
+        <img id="computerHand" src="/icons/computer/rock.png" alt="rock" />
+      </div>
+
+      <div class="computer-name">
+        <h1>Computer</h1>
+      </div>
+    </div>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
